@@ -1,8 +1,54 @@
+body {
 
-#projects{
+	display:grid;
+	grid-template-rows:0.5em auto auto auto;
+	background-color:rgba(145,59,60,0.5);
+}
+#projects {
+  width:700px;
+	height:300px;
+  margin-left:500px;
+
+	}
+.project-tile {
+  display:flex;
+  width:200px;
+  height:100px;
+  justify-content:center;
+}
+#welcome-section{
+  height: 100vh;
+  display:flex;
+  justify-content:center;
+  margin-top:100px;
+  align-items:center;
 
 }
 
-.project-tile{
 
+@media (vw-700px){
+  h1 {
+    color:yellow;
+    font-size:60px;
+  }
+}
+#navbar {
+	display:flex;
+	justify-content: space-evenly;
+	height: 1vh;
+
+}
+#profile-link {
+	display:flex;
+	width:20px;
+	height:20px;
+	align-items:center;
+  margin-left:500px;
+
+}
+footer {
+  display:flex;
+	align-self:flex-end;
+  margin-top:200px;
+  float:right;
 }
